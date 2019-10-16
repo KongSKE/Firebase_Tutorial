@@ -9,13 +9,13 @@ class App extends Component {
   constructor(props){
   super(props);
   var firebaseConfig = {
-    apiKey: "AIzaSyAafvChcmtB_NiNvzK5mJp6uVpuTVI9Mjk",
-    authDomain: "fir-realtimeweb-69681.firebaseapp.com",
-    databaseURL: "https://fir-realtimeweb-69681.firebaseio.com",
-    projectId: "fir-realtimeweb-69681",
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
     storageBucket: "",
-    messagingSenderId: "651691851291",
-    appId: "1:651691851291:web:50b4e0bf554e0888"
+    messagingSenderId: "",
+    appId: ""
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
